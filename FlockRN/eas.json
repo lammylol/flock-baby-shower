@@ -1,0 +1,39 @@
+{
+  "cli": {
+    "version": ">= 14.4.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "resourceClass": "large",
+      "autoIncrement": true,
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "GOOGLE_SERVICES_PLIST": "./firebase/GoogleService-Info.plist",
+        "GOOGLE_SERVICES_JSON": "./firebase/google-services.json"
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "distribution": "store",
+      "autoIncrement": true,
+      "env": {
+        "ENV": "preview"
+      },
+      "channel": "preview"
+    },
+    "production": {
+      "autoIncrement": true,
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {},
+    "preview": {},
+    "development": {}
+  }
+}

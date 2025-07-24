@@ -1,0 +1,23 @@
+{
+  "cSpell.words": [
+    "Firestore",
+    "PRAYERPOINTS",
+    "PRAYERTOPICS",
+    "Pressable",
+    "xmark"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "workbench.colorTheme": "Abyss",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Default Light Modern",
+  "files.autoSave": "afterDelay"
+}
