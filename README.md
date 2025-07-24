@@ -30,6 +30,15 @@ To become a centralized hub for prayer, inspiring the act of prayer across the g
 <p align="center">
   <em>Left: Light mode · Right: Dark mode</em>
 </p>
+
+<p align="center">
+  <img src="IMG_8740.PNG" width="45%" />
+  <img src="IMG_8741.PNG" width="45%" />
+</p>
+
+<p align="center">
+  <em>Left: Pray Modal · Right: Voice Recording </em>
+</p>
 ---
 
 ## Project Structure & Setup
